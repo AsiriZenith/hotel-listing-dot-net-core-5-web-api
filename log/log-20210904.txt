@@ -1,0 +1,45 @@
+2021-09-04 18:05:19.624 +05:30 [INF] Application Is Starting!!
+2021-09-04 18:05:24.018 +05:30 [INF] User profile is available. Using '"C:\\Users\\Asiri_Manjitha\\AppData\\Local\\ASP.NET\\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-04 18:05:24.036 +05:30 [INF] Creating key {7b384024-c428-46e5-b5a5-fde8d07099ce} with creation date 2021-09-04 12:35:24Z, activation date 2021-09-04 12:35:24Z, and expiration date 2021-12-03 12:35:24Z.
+2021-09-04 18:05:24.108 +05:30 [INF] Writing data to file '"C:\\Users\\Asiri_Manjitha\\AppData\\Local\\ASP.NET\\DataProtection-Keys\\key-7b384024-c428-46e5-b5a5-fde8d07099ce.xml"'.
+2021-09-04 18:05:24.756 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-04 18:05:24.756 +05:30 [INF] Hosting environment: "Development"
+2021-09-04 18:05:24.756 +05:30 [INF] Content root path: "D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api"
+2021-09-04 18:05:24.866 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/ - -
+2021-09-04 18:05:24.963 +05:30 [INF] Executing endpoint '"/Index"'
+2021-09-04 18:05:25.111 +05:30 [INF] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+2021-09-04 18:05:25.130 +05:30 [INF] Executing handler method "hotel_listing_web_api.Pages.IndexModel.OnGet" - ModelState is "Valid"
+2021-09-04 18:05:25.131 +05:30 [INF] Executed handler method "OnGet", returned result "".
+2021-09-04 18:05:25.137 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-09-04 18:05:25.137 +05:30 [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2021-09-04 18:05:25.384 +05:30 [INF] Executed page "/Index" in 267.5076ms
+2021-09-04 18:05:25.385 +05:30 [INF] Executed endpoint '"/Index"'
+2021-09-04 18:05:25.411 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/ - - - 200 - text/html;+charset=utf-8 545.9230ms
+2021-09-04 18:05:25.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-09-04 18:05:25.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/css/site.css - -
+2021-09-04 18:05:25.500 +05:30 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api\\wwwroot\\css\\site.css"'
+2021-09-04 18:05:25.501 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/css/site.css - - - 200 1417 text/css 20.5557ms
+2021-09-04 18:05:25.501 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/lib/jquery/dist/jquery.min.js - -
+2021-09-04 18:05:25.522 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-09-04 18:05:25.534 +05:30 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"'
+2021-09-04 18:05:25.534 +05:30 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"'
+2021-09-04 18:05:25.534 +05:30 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"'
+2021-09-04 18:05:25.538 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2021-09-04 18:05:25.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 16.3344ms
+2021-09-04 18:05:25.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 37.3824ms
+2021-09-04 18:05:25.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 95.9140ms
+2021-09-04 18:05:25.540 +05:30 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api\\wwwroot\\js\\site.js"'
+2021-09-04 18:05:25.540 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 2.5164ms
+2021-09-04 18:05:25.905 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/favicon.ico - -
+2021-09-04 18:05:25.910 +05:30 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\\programme\\.Net Core\\.Net core 5.0 web api\\dot-net-core-web-api\\hotel-listing-web-api\\wwwroot\\favicon.ico"'
+2021-09-04 18:05:25.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/favicon.ico - - - 200 5430 image/x-icon 5.6151ms
+2021-09-04 18:08:06.195 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44369/ - -
+2021-09-04 18:08:06.200 +05:30 [INF] Executing endpoint '"/Index"'
+2021-09-04 18:08:06.200 +05:30 [INF] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+2021-09-04 18:08:06.203 +05:30 [INF] Executing handler method "hotel_listing_web_api.Pages.IndexModel.OnGet" - ModelState is "Valid"
+2021-09-04 18:08:06.206 +05:30 [INF] Executed handler method "OnGet", returned result "".
+2021-09-04 18:08:06.206 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-09-04 18:08:06.206 +05:30 [INF] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+2021-09-04 18:08:06.234 +05:30 [INF] Executed page "/Index" in 33.3246ms
+2021-09-04 18:08:06.234 +05:30 [INF] Executed endpoint '"/Index"'
+2021-09-04 18:08:06.234 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44369/ - - - 200 - text/html;+charset=utf-8 39.1212ms

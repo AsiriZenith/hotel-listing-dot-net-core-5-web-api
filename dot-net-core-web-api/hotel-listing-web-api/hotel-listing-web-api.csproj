@@ -5,4 +5,8 @@
     <RootNamespace>hotel_listing_web_api</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+  </ItemGroup>
+
 </Project>
