@@ -1,13 +1,10 @@
+using hotel_listing_web_api.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace hotel_listing_web_api
 {
@@ -23,7 +20,18 @@ namespace hotel_listing_web_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<DatabaseContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("sqlConnection"))
+            );
+            services.AddCors(o => {
+                o.AddPolicy("AllowAll", builder =>
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader());
+            });
             services.AddRazorPages();
+
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,7 +49,10 @@ namespace hotel_listing_web_api
             }
 
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
+
+            app.UseCors("AllowAll");
 
             app.UseRouting();
 
