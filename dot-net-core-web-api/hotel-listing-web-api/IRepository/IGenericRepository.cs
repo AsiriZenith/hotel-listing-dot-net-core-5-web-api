@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace hotel_listing_web_api.IRepository
 {
-    interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T> where T : class
     {
         Task<IList<T>> GetAll(
             Expression<Func<T, bool>> expression = null,
